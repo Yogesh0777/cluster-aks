@@ -6,9 +6,10 @@
 
 resources:
 - repo: self
-
- stage: Deploy
+stages:
+- stage: Validate
   jobs:
+  
     # track deployments on the environment
   - deployment: Deploy_Terraform
     pool: Default
