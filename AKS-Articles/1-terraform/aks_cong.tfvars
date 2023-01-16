@@ -1,0 +1,6 @@
+azure_region = "East_US"
+kubernetes_version = "1.25.4"
+resource_group = "AKSCluster-RG"
+acr_name = "aksterraformacrdemo2"
+keyvault_rg = "AKSTerraform-RG"
+keyvault_name = "yogkeyvault"
